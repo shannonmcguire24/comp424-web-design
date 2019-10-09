@@ -1,35 +1,56 @@
 /* body {height: 100%;} */
 
+.navigation-bar {
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    height: 5vh;
+    border-style: groove;
+}
+
+.website-name {
+    width: 20%;
+    float: left;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.navigation-bar-features {
+    width: 15%;
+    float: left;
+    background-color: white;
+    color: black;
+}
+
 .container {
     margin-top: 30px;
-    height: 100vh;
+    height: 90vh;
     margin-inline-start: 20px;
     margin-inline-end: 20px;
 }
 
 .side-bar {
     height: 80vh;
-    width: 35%;
+    width: 30%;
     float: left;
     border-style: groove;
 
 }
 
 .content {
-    width: 64%;
+    width: 69%;
     float: right;
 }
 
 .live-score {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     border-style: groove;
     overflow: scroll;
 }
 
 .other {
     height: 30vh;
-    width: 75%;
+    width: 73%;
     border-style: groove;
     float: left;
     margin-top: 20px;
@@ -37,8 +58,8 @@
 }
 
 .top-team {
-    height: 30vh;
-    width: 23%;
+    height: 35vh;
+    width: 25%;
     float: right;
     margin-top: 20px;
     overflow: scroll;
@@ -76,41 +97,64 @@ h4 {
 }
 
 .teamA {
-    width: 40%;
+    width: 35%;
     float: left;
     text-align: right;
 }
 
 .score {
-    width: 10%;
+    width: 15%;
     float: left;
     text-align: center;
 }
 
 .teamB {
-    width: 40%;
+    width: 35%;
     float: left;
+    text-align: left
 } 
 
 th {
     font-weight: normal;
-    text-align: justify;
+    text-align: center;
+}
+
+.top-team > table > tbody > tr {
+    height: 30px;
+}
+
+.top-team > table > tbody > tr.header {
+    background-color: lightgray;
+}
+
+.league-name {
+    height: 40px;
+    width: 60%;
 }
 
 .team {
-    width: 50%;
+    width: 70%;
 }
 
 .match-played{
-    width: 20%;
+    width: 10%;
 }
 
 .point {
-    width: 20%;
+    width: 10%;
 }
 
 .ranking {
     width: 10%;
+}
+
+.league-navigate {
+    text-decoration: none;
+    width: 20%;
+}
+
+.league-name {
+    width: 60%;
 }
 
 
