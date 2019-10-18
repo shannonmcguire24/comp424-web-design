@@ -1,38 +1,14 @@
 /* body {height: 100%;} */
 
-.navigation-bar {
-    margin-inline-start: 20px;
-    margin-inline-end: 20px;
-    height: 5vh;
-    border-style: groove;
-}
-
-.website-name {
-    width: 20%;
-    float: left;
-    text-align: center;
-    background-color: lightgray;
-}
-
-.navigation-bar-features {
-    width: 15%;
-    float: left;
-    background-color: white;
-    color: black;
-}
-
-.container {
-    margin-top: 30px;
-    height: 90vh;
-    margin-inline-start: 20px;
-    margin-inline-end: 20px;
+.tabs {
+    margin-top: 5vh;
 }
 
 .side-bar {
     height: 80vh;
     width: 30%;
     float: left;
-    border-style: groove;
+    
 
 }
 
@@ -44,14 +20,14 @@
 .live-score {
     width: 100%;
     height: 45vh;
-    border-style: groove;
+    
     overflow: scroll;
 }
 
 .other {
     height: 30vh;
     width: 73%;
-    border-style: groove;
+    
     float: left;
     margin-top: 20px;
 
@@ -63,12 +39,10 @@
     float: right;
     margin-top: 20px;
     overflow: scroll;
-    border-style: groove;
+    
 }
 
-ul {
-    overflow: scroll;
-    list-style-type: none;
+.side-bar > ul.scrollable {
     padding-inline-start: 10px;
     padding-inline-end: 10px;
     margin-block-end: 0px;

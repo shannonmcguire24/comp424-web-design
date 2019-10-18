@@ -1,0 +1,79 @@
+/* body {height: 100%;} */
+
+.hot-game {
+    height: 5vh;
+    margin-top: 5vh;
+    border-style: groove;
+}
+
+.hot-game > .title {
+    width: 8%;
+    float: left;
+}
+
+.hot-game > .score {
+    width: 90%;
+    float: left;
+    padding-top: 1vh;
+}
+
+.container > .content {
+    width: 100%;
+    float: left;
+}
+
+.content > .tabs {
+    margin-top: 2vh;
+}
+
+.last-games {
+    width: 25%;
+    height: 50vh;
+    float: left;
+    overflow: scroll;
+}
+
+.live-scores {
+    margin-left: 5vh;
+    width: 25%;
+    height: 60vh;
+    float: left;
+    overflow: scroll;
+}
+
+.trending {
+    margin-left: 5vh;
+    width: 42%;
+    height: 65vh;
+    float: left;
+}
+
+.time, .logo {
+    width: 8%;
+    float: left;
+    padding-left: 5px;
+}
+
+.teamA {
+    width: 35%;
+    float: left;
+    text-align: right;
+}
+
+.score {
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+
+.teamB {
+    width: 35%;
+    float: center;
+    text-align: left
+} 
+
+.match {
+    padding-top: 2vh;
+    border-bottom: 1px solid;
+    height: 5vh;
+}
