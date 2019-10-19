@@ -1,0 +1,44 @@
+.team-name {
+    height: 5vh;
+    margin-top: 5vh;
+}
+
+.team-name > .title {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.team-name > .rank {
+    width: 65%;
+    float: right;
+    height: 4vh;
+}
+
+.team-name > .rank > div {
+    text-align: center;
+    background-color: white;
+    margin-top: 1vh;
+}
+
+.team-stat {
+    margin-top: 5vh;
+    height: 35vh;
+}
+
+.other {
+    margin-top: 5vh;
+    height: 30vh;
+}
+
+.other > .player-info {
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+
+.other > .news {
+    width: 50%;
+    float: right;
+    height: 100%;
+}
