@@ -6,7 +6,7 @@
 
 .side-bar {
     height: 80vh;
-    width: 30%;
+    width: 27%;
     float: left;
     
 
@@ -19,25 +19,25 @@
 
 .live-score {
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     
     overflow: scroll;
 }
 
 .other {
     height: 30vh;
-    width: 73%;
+    width: 75vh;
     
     float: left;
-    margin-top: 20px;
+    margin-top: 5vh;
 
 }
 
 .top-team {
     height: 35vh;
-    width: 25%;
+    width: 30vh;
     float: right;
-    margin-top: 20px;
+    margin-top: 5vh;
     overflow: scroll;
     
 }
@@ -45,15 +45,6 @@
 .side-bar > ul.scrollable {
     padding-inline-start: 10px;
     padding-inline-end: 10px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-}
-
-h4 {
-    background-color: lightgray;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-inline-start: 10px;
     margin-block-end: 0px;
     margin-block-start: 0px;
 }
@@ -71,7 +62,7 @@ h4 {
 }
 
 .teamA {
-    width: 35%;
+    width: 40%;
     float: left;
     text-align: right;
 }
@@ -83,7 +74,7 @@ h4 {
 }
 
 .teamB {
-    width: 35%;
+    width: 30%;
     float: left;
     text-align: left
 } 
