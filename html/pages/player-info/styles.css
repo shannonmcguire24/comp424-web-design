@@ -1,38 +1,23 @@
+.content {}
+
 .player-name {
     height: 5vh;
     margin-top: 5vh;
 }
 
-.player-name > .title {
-    width: 25%;
-    float: left;
-    text-align: center;
-}
-
-.player-name > .rank {
-    width: 65%;
-    float: right;
-    height: 4vh;
-}
-
-.player-name > .rank > div {
+.rank {
+    line-height: 4vh;
     text-align: center;
     background-color: white;
-    margin-top: 1vh;
+    height: 5vh;
 }
 
 .player-stats {
-    margin-top: 5vh;
     height: 65vh;
-    width: 50%;
-    float: left;
 }
 
 .trending-news {
-    margin-top: 5vh;
     height: 70vh;
-    width: 45%;
-    float: right;
 }
 
 .player-info {

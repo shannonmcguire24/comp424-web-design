@@ -3,22 +3,11 @@
     margin-top: 5vh;
 }
 
-.team-name > .title {
-    width: 25%;
-    float: left;
-    text-align: center;
-}
-
-.team-name > .rank {
-    width: 65%;
-    float: right;
-    height: 4vh;
-}
-
-.team-name > .rank > div {
+.rank {
+    line-height: 4vh;
     text-align: center;
     background-color: white;
-    margin-top: 1vh;
+    height: 5vh;
 }
 
 .team-stat {
@@ -31,13 +20,13 @@
     height: 30vh;
 }
 
-.other > .player-info {
+.other>.player-info {
     width: 45%;
     float: left;
     height: 100%;
 }
 
-.other > .news {
+.other>.news {
     width: 50%;
     float: right;
     height: 100%;
